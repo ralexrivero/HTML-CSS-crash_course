@@ -34,15 +34,30 @@ Los selectores son los elementos que se utilizan para seleccionar los elementos 
 - **ID**: Selecciona un elemento con un ID especifico.
 - **Clase**: Selecciona todos los elementos con una clase especifica.
 - **Universal**: Selecciona todos los elementos de un documento.
-- **Grupo**: Selecciona todos los elementos que coincidan con uno o más selectores.
-- **Descendiente**: Selecciona todos los elementos que son descendientes de otro elemento.
-- **Hijo**: Selecciona todos los elementos que son hijos directos de otro elemento.
-- **Adyacente**: Selecciona todos los elementos que son adyacentes a otro elemento.
-- **Atributo**: Selecciona todos los elementos que tienen un atributo especifico.
 
 ## Propiedades
 
 - **color**: Define el color del texto.
+
+- codigos de colores:
+  - `red`
+  - `green`
+  - `blue`
+  - `yellow`
+  - `black`
+  - `white`
+  - `gray`
+  - `orange`
+  - `purple`
+  - `brown`
+  - `pink`
+
+- codigos hexadecimales
+
+- codigos rgb
+
+
+
 - **background-color**: Define el color de fondo.
 - **background-image**: Define una imagen de fondo.
 - **background-repeat**: Define si la imagen de fondo se repite o no.
