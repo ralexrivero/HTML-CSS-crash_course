@@ -56,7 +56,7 @@ Los selectores son los elementos que se utilizan para seleccionar los elementos 
 
 - codigos rgb
 
-
+- [HTML COLORS](https://htmlcolorcodes.com/es/)
 
 - **background-color**: Define el color de fondo.
 - **background-image**: Define una imagen de fondo.
