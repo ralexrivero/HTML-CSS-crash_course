@@ -16,7 +16,6 @@
 - [HTML](#html)
 - [CSS](#css)
 - [Entorno](#entorno)
-- [Ejercicios](#ejercicios)
 - [Recursos](#recursos)
 - [Licencia](#licencia)
 
@@ -52,13 +51,10 @@ h1 {
 - [codesandbox.io](https://codesandbox.io)
 - [stackblitz.com](https://stackblitz.com)
 
-## Ejercicios
-
-- [Ejercicio 1](ejercicios/ejercicio1.md)
-- [Ejercicio 2](ejercicios/ejercicio2.md)
-- [Ejercicio 3](ejercicios/ejercicio3.md)
-
 ## Recursos
+
+- [HTML cheatsheet](./htmlCS.md)
+- [CSS cheatsheet](./cssCS.md)
 
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [W3SCHOOLS](https://www.w3schools.com/)
@@ -66,7 +62,7 @@ h1 {
 
 ## Licencia
 
-[MIT](https://opensource.org/licenses/MIT)
+[Open Source](https://opensource.org/licenses/MIT)
 
 ## Author
 
