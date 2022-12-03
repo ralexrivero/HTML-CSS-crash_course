@@ -15,6 +15,7 @@
 - [Introduccion](#introduccion)
 - [HTML](#html)
 - [CSS](#css)
+- [Entorno](#entorno)
 - [Ejercicios](#ejercicios)
 - [Recursos](#recursos)
 - [Licencia](#licencia)
@@ -43,6 +44,14 @@ h1 {
 }
 ```
 
+## Entorno
+
+> entornos en linea
+
+- [codepen.io](https://codepen.io)
+- [codesandbox.io](https://codesandbox.io)
+- [stackblitz.com](https://stackblitz.com)
+
 ## Ejercicios
 
 - [Ejercicio 1](ejercicios/ejercicio1.md)
@@ -52,6 +61,7 @@ h1 {
 ## Recursos
 
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- [W3SCHOOLS](https://www.w3schools.com/)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
 ## Licencia
