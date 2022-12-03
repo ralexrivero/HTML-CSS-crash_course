@@ -55,10 +55,12 @@ h1 {
 
 - [HTML cheatsheet](./htmlCS.md)
 - [CSS cheatsheet](./cssCS.md)
+- [imagenes](./img)
 
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [W3SCHOOLS](https://www.w3schools.com/)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [Fuentes](./fuentes.md)
 
 ## Licencia
 
