@@ -1,23 +1,22 @@
 # HTML cheet sheet
 
-## HTML
+## Tabla de contenidos
 
-- [HTML](#html)
-  - [Guia_rapida](#guia_rapida)
-  - [Secciones](#secciones)
-  - [Elementos](#elementos)
-  - [Atributos](#atributos)
-  - [Comentarios](#comentarios)
-  - [Estructura](#estructura)
-  - [Encabezados](#encabezados)
-  - [Parrafos](#parrafos)
-  - [Listas](#listas)
-  - [Enlaces](#enlaces)
-  - [Imagenes](#imagenes)
-  - [Tablas](#tablas)
-  - [Formularios](#formularios)
-  - [Semantica](#semantica)
-  - [Recursos](#recursos)
+- [Guia_rapida](#guia_rapida)
+- [Secciones](#secciones)
+- [Elementos](#elementos)
+- [Atributos](#atributos)
+- [Comentarios](#comentarios)
+- [Estructura](#estructura)
+- [Encabezados](#encabezados)
+- [Parrafos](#parrafos)
+- [Listas](#listas)
+- [Enlaces](#enlaces)
+- [Imagenes](#imagenes)
+- [Tablas](#tablas)
+- [Formularios](#formularios)
+- [Semantica](#semantica)
+- [Recursos](#recursos)
 
 ## Guia_rapida
 
