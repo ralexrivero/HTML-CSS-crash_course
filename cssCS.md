@@ -15,14 +15,13 @@
   - [posicionamiento](#posicionamiento)
   - [fondos](#fondos)
   - [display](#display)
-  - [position](#position)
-  - [overflow](#overflow)
-  - [float](#float)
-  - [clear](#clear)
-  - [text](#text)
-  - [text-decoration](#text-decoration)
-  - [text-transform](#text-transform)
-  - [text-align](#text-align)
+  - [indice](#indice)
+  - [desbordamiento](#desbordamiento)
+  - [transformaciones](#transformaciones)
+  - [hover](#hover)
+  - [animaciones](#animaciones)
+  - [recursos](#recursos)
+  - [frameworks](#frameworks)
 
 ## Guia_rapida
 
@@ -39,23 +38,23 @@ Define el aspecto visual de un documento HTML.
 - `border` borde
 - `width` ancho
 - `height` alto
-- `display` tipo de display (block, inline, inline-block, none)
-- `position` posicion (static, relative, absolute, fixed)
+- `display` tipo de display (`block`, `inline`, `inline-block`, `none`)
+- `position` posicion (`static`, `relative`, `absolute`, `fixed`)
   - `top` posicion superior
   - `right` posicion derecha
   - `bottom` posicion inferior
   - `left` posicion izquierda
-- `float` flotar (left, right, none)
-- `clear` limpiar flotantes (left, right, both, none)
-- `text-align` alineacion del texto (left, right, center, justify)
-- `text-decoration` decoracion del texto (none, underline, overline, line-through)
-- `text-transform` transformacion del texto (uppercase, lowercase, capitalize)
+- `float` flotar (`left`, `right`, `none`)
+- `clear` limpiar flotantes (`left`, `right`, `both`, `none`)
+- `text-align` alineacion del texto (`left`, `right`, `center`, `justify`)
+- `text-decoration` decoracion del texto (`none`, `underline`, `overline`, `line-through`)
+- `text-transform` transformacion del texto (`uppercase`, `lowercase`, `capitalize`)
 - `text-indent` sangria del texto
 - `text-shadow` sombra del texto
 - `box-shadow` sombra del elemento
 - `opacity` opacidad
-- `visibility` visibilidad (visible, hidden, collapse)
-- `overflow` desbordamiento (visible, hidden, scroll, auto)
+- `visibility` visibilidad (`visible`, `hidden`, `collapse`)
+- `overflow` desbordamiento (`visible`, `hidden`, `scroll`, `auto`)
 - `z-index` indice de profundidad
 
 ## Selectores
@@ -618,7 +617,7 @@ body {
 
 ## Indice
 
-- `z-index` : Define el orden de los elementos.
+- `z-index` : Define el orden de los elementos. El elemento con el mayor valor de `z-index` se muestra por encima de los demás elementos.
 
 ```css
 body {
@@ -642,17 +641,82 @@ body {
 }
 ```
 
+## Transformaciones
 
-- `position`: Define la posición de un elemento.
-- `top`: Define la posición superior de un elemento.
-- `right`: Define la posición derecha de un elemento.
-- `bottom`: Define la posición inferior de un elemento.
-- `left`: Define la posición izquierda de un elemento.
+Las transformaciones una transformacion al elemento
+
+- `transform` : Define una transformacion al elemento.
+  - `translate` - Desplaza el elemento.
+  - `scale` - Cambia el tamaño del elemento.
+  - `rotate` - Rota el elemento.
+  - `skew` - Inclina el elemento.
+
+```css
+
+```css
+body {
+  transform: rotate(45deg);
+}
+```
+
+## Hover
+
+Las pseudoclases hover definen el estado de un elemento cuando el mouse esta sobre el elemento y son muy populares para crear efectos de transición en hipervinculos y botones.
+
+- `hover`
+
+```css
+a:hover {
+  color: red;
+}
+```
+
+```html
+<a href="#" class="btn btn-primary">Primary</a>
+```
+
+```css
+.btn {
+  padding: 1em;
+  border-radius: 1em;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #000;
+}
+```
+
+## Animaciones
+
+Un ejemplo de animacion simple utilizando `@keyframes` y `animation`.
+
+```html
+
+```css
+body {
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+```
+
 - `float`: Define la posición de un elemento flotante.
 - `clear`: Define si un elemento flotante debe estar a la izquierda, a la derecha o a ambos lados.
-- `overflow`: Define qué hacer si el contenido de un elemento es más grande que el elemento.
 - `visibility`: Define si un elemento debe ser visible o no.
-
 
 ## Recursos
 
@@ -666,7 +730,9 @@ body {
 - [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [CSS Froggy](https://flexboxfroggy.com/)
 
-## Framworks CSS
+## Framworks
+
+Algunos frameworks CSS que pueden ser de utilidad.
 
 - [Bootstrap](https://getbootstrap.com/)
 - [Materialize](https://materializecss.com/)
