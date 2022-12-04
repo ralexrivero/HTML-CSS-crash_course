@@ -7,6 +7,8 @@
   - [selectores](#selectores)
   - [propiedades](#propiedades)
   - [colores](#colores)
+  - [unidades](#unidades)
+  - [tipografía](#tipografía)
   - [background](#background)
   - [bordes](#bordes)
   - [margenes](#margenes)
@@ -120,32 +122,33 @@ p, h1, h2 {
 
 ### Colores
 
-- codigos de colores: nombres, hexadecimales, abreviacion hexadecimal, rgb, rgba, hsl, hsla
-  - `red` #ff0000 #f00 rgb(255, 0, 0) rgba(255, 0, 0, 1) hsl(0, 100%, 50%) hsla(0, 100%, 50%, 1)
-  - `green` #00ff00 #0f0 rgb(0, 255, 0) rgba(0, 255, 0, 1) hsl(120, 100%, 50%) hsla(120, 100%, 50%, 1)
-  - `blue` #0000ff #00f rgb(0, 0, 255) rgba(0, 0, 255, 1) hsl(240, 100%, 50%) hsla(240, 100%, 50%, 1)
-  - `yellow` #ffff00 #ff0 rgb(255, 255, 0) rgba(255, 255, 0, 1) hsl(60, 100%, 50%) hsla(60, 100%, 50%, 1)
-  - `black` #000000 #000 rgb(0, 0, 0) rgba(0, 0, 0, 1) hsl(0, 0%, 0%) hsla(0, 0%, 0%, 1)
-  - `white` #ffffff #fff rgb(255, 255, 255) rgba(255, 255, 255, 1) hsl(0, 0%, 100%) hsla(0, 0%, 100%, 1)
-  - `gray` #808080 #808 rgb(128, 128, 128) rgba(128, 128, 128, 1) hsl(0, 0%, 50%) hsla(0, 0%, 50%, 1)
-  - `orange` #ffa500 #ffa500 rgb(255, 165, 0) rgba(255, 165, 0, 1) hsl(39, 100%, 50%) hsla(39, 100%, 50%, 1)
-  - `purple` #800080 #800080 rgb(128, 0, 128) rgba(128, 0, 128, 1) hsl(300, 100%, 25%) hsla(300, 100%, 25%, 1)
-  - `brown` #a52a2a #a52a2a rgb(165, 42, 42) rgba(165, 42, 42, 1) hsl(0, 59%, 40%) hsla(0, 59%, 40%, 1)
-  - `pink` #ffc0cb #ffc0cb rgb(255, 192, 203) rgba(255, 192, 203, 1) hsl(350, 100%, 88%) hsla(350, 100%, 88%, 1)
-  - `cyan` #00ffff #0ff rgb(0, 255, 255) rgba(0, 255, 255, 1) hsl(180, 100%, 50%) hsla(180, 100%, 50%, 1)
-  - `magenta` #ff00ff #f0f rgb(255, 0, 255) rgba(255, 0, 255, 1) hsl(300, 100%, 50%) hsla(300, 100%, 50%, 1)
-  - `silver` #c0c0c0 #c0c0c0 rgb(192, 192, 192) rgba(192, 192, 192, 1) hsl(0, 0%, 75%) hsla(0, 0%, 75%, 1)
-  - `gold` #ffd700 #ffd700 rgb(255, 215, 0) rgba(255, 215, 0, 1) hsl(51, 100%, 50%) hsla(51, 100%, 50%, 1)
-  - `maroon` #800000 #800000 rgb(128, 0, 0) rgba(128, 0, 0, 1) hsl(0, 100%, 25%) hsla(0, 100%, 25%, 1)
-  - `olive` #808000 #808000 rgb(128, 128, 0) rgba(128, 128, 0, 1) hsl(60, 100%, 25%) hsla(60, 100%, 25%, 1)
-  - `lime` #00ff00 #0f0 rgb(0, 255, 0) rgba(0, 255, 0, 1) hsl(120, 100%, 50%) hsla(120, 100%, 50%, 1)
-  - `teal` #008080 #008080 rgb(0, 128, 128) rgba(0, 128, 128, 1) hsl(180, 100%, 25%) hsla(180, 100%, 25%, 1)
-  - `navy` #000080 #000080 rgb(0, 0, 128) rgba(0, 0, 128, 1) hsl(240, 100%, 25%) hsla(240, 100%, 25%, 1)
-  - `indigo` #4b0082 #4b0082 rgb(75, 0, 130) rgba(75, 0, 130, 1) hsl(275, 100%, 25%) hsla(275, 100%, 25%, 1)
-  - `violet` #ee82ee #ee82ee rgb(238, 130, 238) rgba(238, 130, 238, 1) hsl(300, 76%, 72%) hsla(300, 76%, 72%, 1)
-  - `turquoise` #40e0d0 #40e0d0 rgb(64, 224, 208) rgba(64, 224, 208, 1) hsl(174, 72%, 56%) hsla(174, 72%, 56%, 1)
-  - `salmon` #fa8072 #fa8072 rgb(250, 128, 114) rgba(250, 128, 114, 1) hsl(6, 93%, 71%) hsla(6, 93%, 71%, 1)
-  - `plum` #dda0dd #dda0dd rgb(221, 160, 221) rgba(221, 160, 221, 1) hsl(300, 47%, 76%) hsla(300, 47%, 76%, 1)
+Codigos de colores: nombres, hexadecimales, abreviacion hexadecimal, rgb, rgba, hsl, hsla
+
+- `red` #ff0000 #f00 rgb(255, 0, 0) rgba(255, 0, 0, 1) hsl(0, 100%, 50%) hsla(0, 100%, 50%, 1)
+- `green` #00ff00 #0f0 rgb(0, 255, 0) rgba(0, 255, 0, 1) hsl(120, 100%, 50%) hsla(120, 100%, 50%, 1)
+- `blue` #0000ff #00f rgb(0, 0, 255) rgba(0, 0, 255, 1) hsl(240, 100%, 50%) hsla(240, 100%, 50%, 1)
+- `yellow` #ffff00 #ff0 rgb(255, 255, 0) rgba(255, 255, 0, 1) hsl(60, 100%, 50%) hsla(60, 100%, 50%, 1)
+- `black` #000000 #000 rgb(0, 0, 0) rgba(0, 0, 0, 1) hsl(0, 0%, 0%) hsla(0, 0%, 0%, 1)
+- `white` #ffffff #fff rgb(255, 255, 255) rgba(255, 255, 255, 1) hsl(0, 0%, 100%) hsla(0, 0%, 100%, 1)
+- `gray` #808080 #808 rgb(128, 128, 128) rgba(128, 128, 128, 1) hsl(0, 0%, 50%) hsla(0, 0%, 50%, 1)
+- `orange` #ffa500 #ffa500 rgb(255, 165, 0) rgba(255, 165, 0, 1) hsl(39, 100%, 50%) hsla(39, 100%, 50%, 1)
+- `purple` #800080 #800080 rgb(128, 0, 128) rgba(128, 0, 128, 1) hsl(300, 100%, 25%) hsla(300, 100%, 25%, 1)
+- `brown` #a52a2a #a52a2a rgb(165, 42, 42) rgba(165, 42, 42, 1) hsl(0, 59%, 40%) hsla(0, 59%, 40%, 1)
+- `pink` #ffc0cb #ffc0cb rgb(255, 192, 203) rgba(255, 192, 203, 1) hsl(350, 100%, 88%) hsla(350, 100%, 88%, 1)
+- `cyan` #00ffff #0ff rgb(0, 255, 255) rgba(0, 255, 255, 1) hsl(180, 100%, 50%) hsla(180, 100%, 50%, 1)
+- `magenta` #ff00ff #f0f rgb(255, 0, 255) rgba(255, 0, 255, 1) hsl(300, 100%, 50%) hsla(300, 100%, 50%, 1)
+- `silver` #c0c0c0 #c0c0c0 rgb(192, 192, 192) rgba(192, 192, 192, 1) hsl(0, 0%, 75%) hsla(0, 0%, 75%, 1)
+- `gold` #ffd700 #ffd700 rgb(255, 215, 0) rgba(255, 215, 0, 1) hsl(51, 100%, 50%) hsla(51, 100%, 50%, 1)
+- `maroon` #800000 #800000 rgb(128, 0, 0) rgba(128, 0, 0, 1) hsl(0, 100%, 25%) hsla(0, 100%, 25%, 1)
+- `olive` #808000 #808000 rgb(128, 128, 0) rgba(128, 128, 0, 1) hsl(60, 100%, 25%) hsla(60, 100%, 25%, 1)
+- `lime` #00ff00 #0f0 rgb(0, 255, 0) rgba(0, 255, 0, 1) hsl(120, 100%, 50%) hsla(120, 100%, 50%, 1)
+- `teal` #008080 #008080 rgb(0, 128, 128) rgba(0, 128, 128, 1) hsl(180, 100%, 25%) hsla(180, 100%, 25%, 1)
+- `navy` #000080 #000080 rgb(0, 0, 128) rgba(0, 0, 128, 1) hsl(240, 100%, 25%) hsla(240, 100%, 25%, 1)
+- `indigo` #4b0082 #4b0082 rgb(75, 0, 130) rgba(75, 0, 130, 1) hsl(275, 100%, 25%) hsla(275, 100%, 25%, 1)
+- `violet` #ee82ee #ee82ee rgb(238, 130, 238) rgba(238, 130, 238, 1) hsl(300, 76%, 72%) hsla(300, 76%, 72%, 1)
+- `turquoise` #40e0d0 #40e0d0 rgb(64, 224, 208) rgba(64, 224, 208, 1) hsl(174, 72%, 56%) hsla(174, 72%, 56%, 1)
+- `salmon` #fa8072 #fa8072 rgb(250, 128, 114) rgba(250, 128, 114, 1) hsl(6, 93%, 71%) hsla(6, 93%, 71%, 1)
+- `plum` #dda0dd #dda0dd rgb(221, 160, 221) rgba(221, 160, 221, 1) hsl(300, 47%, 76%) hsla(300, 47%, 76%, 1)
 
 ### Referencia de colores
 
@@ -175,7 +178,7 @@ body {
 - [CSS COLOR NAMES](https://www.w3schools.com/colors/colors_names.asp)
 - [Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0)
 
-## Unidades de medida
+## Unidades
 
 ### Unidades relativas
 
@@ -187,7 +190,7 @@ Las unidades relativas son unidades que se basan en otras unidades, por ejemplo,
 - `vh` - Unidad relativa de medida de alto, el tamaño se basa en el alto de la ventana.
 - `vmin` - Unidad relativa de medida de ancho y alto, el tamaño se basa en el ancho o alto de la ventana, el que sea menor.
 - `vmax` - Unidad relativa de medida de ancho y alto, el tamaño se basa en el ancho o alto de la ventana, el que sea mayor.
-- `%` - Unidad relativa de medida de ancho y alto, el tamaño se basa en el ancho o alto del elemento padre.
+- `%` - Unidad relativa de medida de ancho y alto, el tamaño se basa en un porcentaje del ancho o alto del elemento padre.
 
 ### Unidades absolutas
 
@@ -431,7 +434,6 @@ div {
   background-image:url("https://picsum.photos/100/100")
 }
 ```
-
 
 - **background-attachment**: Define si la imagen de fondo es fija o se mueve con el contenido.
 - **background-position**: Define la posición de la imagen de fondo.
