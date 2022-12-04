@@ -9,6 +9,7 @@
   - [colores](#colores)
   - [unidades](#unidades)
   - [tipografía](#tipografía)
+  - [espaciado](#espaciado)
   - [background](#background)
   - [bordes](#bordes)
   - [margenes](#margenes)
@@ -270,9 +271,11 @@ body {
 
 ## Espaciado
 
+El espaciado esta definido por el margen, el relleno y el borde de un elemento.
+
 ### Margenes
 
-Los margenes son los espacios entre los bordes de un elemento y los bordes de otros elementos.
+- `margin` Los margenes son los espacios entre los bordes de un elemento y los bordes de otros elementos.
 
 ```css
 body {
@@ -300,7 +303,7 @@ body {
 
 ### Relleno
 
-El relleno es el espacio entre el borde de un elemento y el contenido de un elemento.
+- `padding` El relleno es el espacio entre el borde de un elemento y el contenido de un elemento.
 
 ```css
 body {
@@ -328,7 +331,7 @@ body {
 
 ### Borde
 
-El borde es el espacio entre el borde de un elemento y el contenido de un elemento.
+- `border` El borde es el espacio entre el borde de un elemento y el contenido de un elemento.
 
 ```css
 body {
