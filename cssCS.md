@@ -594,8 +594,28 @@ body {
 }
 ```
 
+## Display
 
-- `display`: Define el tipo de caja de un elemento.
+El display define si un elemento es un bloque o un elemento en línea.
+
+### Display block
+
+Los elementos de bloque son elementos que se muestran en una nueva línea, por ejemplo, `<div>`, `<p>`, `<h1>`, `<form>`, etc.
+
+### Display inline
+
+Los elementos en línea son elementos que se muestran en la misma línea, por ejemplo, `<span>`, `<a>`, `<img>`, etc.
+
+### Display none
+
+Los elementos ocultos no se muestran en la página.
+
+```css
+body {
+  display: none;
+}
+```
+
 - `position`: Define la posición de un elemento.
 - `top`: Define la posición superior de un elemento.
 - `right`: Define la posición derecha de un elemento.
@@ -606,12 +626,7 @@ body {
 - `overflow`: Define qué hacer si el contenido de un elemento es más grande que el elemento.
 - `visibility`: Define si un elemento debe ser visible o no.
 - `z-index`: Define la posición de un elemento en el eje z.
-- `font-family`: Define la fuente de un elemento.
-- `font-size`: Define el tamaño de la fuente de un elemento.
-- `font-style`: Define el estilo de la fuente de un elemento.
-- `font-weight`: Define el grosor de la fuente de un elemento.
-- `text-align`: Define la alineación del texto.
-- `text-decoration`: Define la decoración del texto.
+
 
 ## Recursos
 
