@@ -382,3 +382,7 @@ La semantica es la forma en que definimos la estructura de la pagina. La semanti
 - [HTML Input Types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_%3Cinput%3E_types)
 - [HTML Input Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
 - [HTML Input Types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_%3Cinput%3E_types)
+
+Lorem ipsum
+
+- [Lorem Ipsum](https://www.lipsum.com/)

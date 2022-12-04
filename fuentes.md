@@ -12,3 +12,5 @@
 - [Font Awesome](https://fontawesome.com/)
 - [Flaticon](https://www.flaticon.es/)
 - [Iconfinder](https://www.iconfinder.com/)
+- [Iconscout](https://iconscout.com/)
+- [Icons8](https://icons8.com/)

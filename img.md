@@ -35,3 +35,10 @@ las imagenes en html pueden ser de varios formatos, los mas comunes son:
 - [flaticon](https://www.flaticon.es/)
 - [iconfinder](https://www.iconfinder.com/)
 - [iconscout](https://iconscout.com/)
+
+Lorem images
+
+- [Picsum](https://picsum.photos/)
+- [Lorem Picsum](https://loremflickr.com/)
+- [Gatitos](https://placekitten.com/)
+- [Perritos](https://placedog.net/)
