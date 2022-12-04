@@ -55,7 +55,7 @@ h1 {
 
 - [HTML cheatsheet](./htmlCS.md)
 - [CSS cheatsheet](./cssCS.md)
-- [imagenes](./img)
+- [Imagenes](./img)
 - [Fuentes](./fuentes.md)
 
 ## Recursos populares
