@@ -1,27 +1,26 @@
 # CSS cheetsheet
 
-## CSS
+## Tabla de contenido
 
-- [CSS](#css)
-  - [guia rapida](#guia_rapida)
-  - [selectores](#selectores)
-  - [propiedades](#propiedades)
-  - [colores](#colores)
-  - [unidades](#unidades)
-  - [tipografía](#tipografía)
-  - [texto](#texto)
-  - [tamaño de elementos](#tamaños)
-  - [espaciado](#espaciado)
-  - [posicionamiento](#posicionamiento)
-  - [fondos](#fondos)
-  - [display](#display)
-  - [indice](#indice)
-  - [desbordamiento](#desbordamiento)
-  - [transformaciones](#transformaciones)
-  - [hover](#hover)
-  - [animaciones](#animaciones)
-  - [recursos](#recursos)
-  - [frameworks](#frameworks)
+- [guia rapida](#guia_rapida)
+- [selectores](#selectores)
+- [propiedades](#propiedades)
+- [colores](#colores)
+- [unidades](#unidades)
+- [tipografía](#tipografía)
+- [texto](#texto)
+- [tamaño de elementos](#tamaños)
+- [espaciado](#espaciado)
+- [posicionamiento](#posicionamiento)
+- [fondos](#fondos)
+- [display](#display)
+- [indice](#indice)
+- [desbordamiento](#desbordamiento)
+- [transformaciones](#transformaciones)
+- [hover](#hover)
+- [animaciones](#animaciones)
+- [recursos](#recursos)
+- [frameworks](#frameworks)
 
 ## Guia_rapida
 
@@ -730,7 +729,7 @@ body {
 - [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [CSS Froggy](https://flexboxfroggy.com/)
 
-## Framworks
+## Frameworks
 
 Algunos frameworks CSS que pueden ser de utilidad.
 
