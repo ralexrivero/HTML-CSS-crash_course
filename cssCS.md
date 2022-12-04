@@ -9,11 +9,11 @@
   - [colores](#colores)
   - [unidades](#unidades)
   - [tipografía](#tipografía)
+  - [texto](#texto)
+  - [tamaño de elementos](#tamaños)
   - [espaciado](#espaciado)
-  - [background](#background)
-  - [bordes](#bordes)
-  - [margenes](#margenes)
-  - [padding](#padding)
+  - [posicionamiento](#posicionamiento)
+  - [fondos](#fondos)
   - [display](#display)
   - [position](#position)
   - [overflow](#overflow)
@@ -62,7 +62,7 @@ Define el aspecto visual de un documento HTML.
 
 Los selectores se utilizan para seleccionar los elementos HTML a los que se les aplicará el estilo.
 
-- **Elemento**: Selecciona todos los elementos de un tipo especifico.
+- `Elemento`: Selecciona todos los elementos de un tipo especifico.
 
 ```css
 p {
@@ -70,7 +70,7 @@ p {
 }
 ```
 
-- **ID**: Selecciona un elemento con un ID especifico.
+- `ID`: Selecciona un elemento con un ID especifico.
 
 ```html
 <p id="demo">Este es un parrafo</p>
@@ -82,7 +82,7 @@ p {
 }
 ```
 
-- **Clase**: Selecciona todos los elementos con una clase especifica.
+- `Clase`: Selecciona todos los elementos con una clase especifica.
 
 ```html
 <p class="demo">Este es un parrafo</p>
@@ -94,7 +94,7 @@ p {
 }
 ```
 
-- **Universal**: Selecciona todos los elementos de un documento.
+- `Universal`: Selecciona todos los elementos de un documento.
 
 ```css
 * {
@@ -111,7 +111,7 @@ Un selector universal se utiliza para resetear los estilos de un documento.
 }
 ```
 
-- **Grupo**: Selecciona todos los elementos que coincidan con uno o mas selectores.
+- `Grupo`: Selecciona todos los elementos que coincidan con uno o mas selectores.
 
 ```css
 p, h1, h2 {
@@ -205,7 +205,6 @@ Las unidades absolutas son unidades que no se basan en otras unidades, por ejemp
 
 Las fuentes son los tipos de letra que se pueden usar en un documento, por ejemplo, Arial, Times New Roman, Verdana, etc.
 
-
 ### Familias de fuentes
 
 Las familias de fuentes son un conjunto de fuentes que se pueden usar en un documento, por ejemplo, Arial, Times New Roman, Verdana, etc.
@@ -264,10 +263,124 @@ body {
 }
 ```
 
+## Texto
+
+### Color de texto
+
+- `color`: Define el color del texto.
+
+```css
+p {
+  color: red;
+}
+```
+
+### Alineación de texto
+
+La alineación de texto se puede especificar con la propiedad `text-align`.
+
+```css
+body {
+  text-align: center;
+}
+```
+
+### Espaciado de texto
+
+El espaciado de texto se puede especificar con la propiedad `letter-spacing`.
+
+```css
+body {
+  letter-spacing: 2px;
+}
+```
+
+### Altura de texto
+
+La altura de texto se puede especificar con la propiedad `line-height`.
+
+```css
+body {
+  line-height: 1.5;
+}
+```
+
+### Transformación de texto
+
+La transformación de texto se puede especificar con la propiedad `text-transform`.
+
+- `uppercase` - Convierte el texto a mayusculas.
+- `lowercase` - Convierte el texto a minusculas.
+- `capitalize` - Convierte el texto a mayusculas y minusculas.
+
+```css
+body {
+  text-transform: uppercase;
+}
+```
+
+### Decoración de texto
+
+La decoración de texto se puede especificar con la propiedad `text-decoration`.
+
+- `none` - No hay decoración.
+- `underline` - Subrayado.
+- `overline` - Linea superior.
+- `line-through` - Linea tachada.
+
+```css
+body {
+  text-decoration: underline;
+}
+```
+
 ### Referencia de fuentes
 
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
+
+## Tamaños
+
+El tamaño de los elementos se puede especificar con las propiedades `width` y `height`.
+
+```css
+body {
+  width: 100%;
+  height: 100%;
+}
+```
+
+```css
+body {
+  width: 100px;
+  height: 100px;
+}
+```
+
+```html
+<meta viewport="width=device-width, initial-scale=1.0">
+```
+
+```css
+body {
+  width: 100vw;
+  height: 100vh;
+}
+```
+
+```css
+body {
+  width: 100vmin;
+  height: 100vmin;
+}
+```
+
+```css
+body {
+  width: 100vmax;
+  height: 100vmax;
+}
+```
 
 ## Espaciado
 
@@ -332,6 +445,26 @@ body {
 ### Borde
 
 - `border` El borde es el espacio entre el borde de un elemento y el contenido de un elemento.
+- `border`: Define el ancho, el estilo y el color de los bordes.
+- `border-width`: Define el ancho de los bordes.
+- `border-style`: Define el estilo de los bordes.
+  - `none` - No hay borde.
+  - `hidden` - Borde oculto.
+  - `dotted` - Borde punteado.
+  - `dashed` - Borde discontinuo.
+  - `solid` - Borde sólido.
+  - `double` - Borde doble.
+  - `groove` - Borde con relieve.
+  - `ridge` - Borde con relieve inverso.
+- `border-color`: Define el color de los bordes.
+- `border-radius`: Define el radio de los bordes.
+
+```css
+div {
+  border: 1px solid red;
+  border-radius: 1em;
+}
+```
 
 ```css
 body {
@@ -360,20 +493,11 @@ body {
 
 ## Posicionamiento
 
+El posicionamiento define la posición de un elemento en la página, por ejemplo, si un elemento esta arriba, abajo, a la izquierda o a la derecha de otro elemento.
+
 ### Posicionamiento estático
 
 El posicionamiento estático es el posicionamiento por defecto de los elementos, los elementos se posicionan en el flujo normal del documento.
-
-### Tamaño de elementos
-
-El tamaño de los elementos se puede especificar con las propiedades `width` y `height`.
-
-```css
-body {
-  width: 100%;
-  height: 100%;
-}
-```
 
 ### Posicionamiento relativo
 
@@ -399,15 +523,38 @@ body {
 }
 ```
 
-- **color**: Define el color del texto.
+## fondos
+
+Las imagenes se pueden especificar con la propiedad `background-image`.
+El color de fondo se puede especificar con la propiedad `background-color`.
+El tamaño de fondo se puede especificar con la propiedad `background-size`.
+La posición de fondo se puede especificar con la propiedad `background-position`.
+La repetición de fondo se puede especificar con la propiedad `background-repeat`.
 
 ```css
-p {
-  color: red;
+body {
+  background-image: url("https://picsum.photos/200/300");
 }
 ```
 
-- **background-color**: Define el color de fondo.
+```css
+body {
+  background-image: url("https://picsum.photos/200/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+```
+
+```css
+body {
+  background-image: url("https://picsum.photos/200/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+```
+
+- `background-color`: Define el color de fondo.
 
 ```css
 p {
@@ -415,7 +562,7 @@ p {
 }
 ```
 
-- **background-image**: Define una imagen de fondo.
+- `background-image`: Define una imagen de fondo.
 
 ```css
 div {
@@ -423,7 +570,7 @@ div {
 }
 ```
 
-- **background-repeat**: Define si la imagen de fondo se repite o no.
+- `background-repeat` : Define si la imagen de fondo se repite o no.
 
 ```html
 <div class="container-x></div>
@@ -438,33 +585,33 @@ div {
 }
 ```
 
-- **background-attachment**: Define si la imagen de fondo es fija o se mueve con el contenido.
-- **background-position**: Define la posición de la imagen de fondo.
-- **border**: Define el ancho, el estilo y el color de los bordes.
-- **border-width**: Define el ancho de los bordes.
-- **border-style**: Define el estilo de los bordes.
-- **border-color**: Define el color de los bordes.
-- **margin**: Define el margen exterior de un elemento.
-- **padding**: Define el margen interior de un elemento.
-- **width**: Define el ancho de un elemento.
-- **height**: Define la altura de un elemento.
-- **display**: Define el tipo de caja de un elemento.
-- **position**: Define la posición de un elemento.
-- **top**: Define la posición superior de un elemento.
-- **right**: Define la posición derecha de un elemento.
-- **bottom**: Define la posición inferior de un elemento.
-- **left**: Define la posición izquierda de un elemento.
-- **float**: Define la posición de un elemento flotante.
-- **clear**: Define si un elemento flotante debe estar a la izquierda, a la derecha o a ambos lados.
-- **overflow**: Define qué hacer si el contenido de un elemento es más grande que el elemento.
-- **visibility**: Define si un elemento debe ser visible o no.
-- **z-index**: Define la posición de un elemento en el eje z.
-- **font-family**: Define la fuente de un elemento.
-- **font-size**: Define el tamaño de la fuente de un elemento.
-- **font-style**: Define el estilo de la fuente de un elemento.
-- **font-weight**: Define el grosor de la fuente de un elemento.
-- **text-align**: Define la alineación del texto.
-- **text-decoration**: Define la decoración del texto.
+- `background-attachment`: Define si la imagen de fondo es fija o se mueve con el contenido.
+
+```css
+body {
+  background-image: url("img_tree.png");
+  background-attachment: fixed;
+}
+```
+
+
+- `display`: Define el tipo de caja de un elemento.
+- `position`: Define la posición de un elemento.
+- `top`: Define la posición superior de un elemento.
+- `right`: Define la posición derecha de un elemento.
+- `bottom`: Define la posición inferior de un elemento.
+- `left`: Define la posición izquierda de un elemento.
+- `float`: Define la posición de un elemento flotante.
+- `clear`: Define si un elemento flotante debe estar a la izquierda, a la derecha o a ambos lados.
+- `overflow`: Define qué hacer si el contenido de un elemento es más grande que el elemento.
+- `visibility`: Define si un elemento debe ser visible o no.
+- `z-index`: Define la posición de un elemento en el eje z.
+- `font-family`: Define la fuente de un elemento.
+- `font-size`: Define el tamaño de la fuente de un elemento.
+- `font-style`: Define el estilo de la fuente de un elemento.
+- `font-weight`: Define el grosor de la fuente de un elemento.
+- `text-align`: Define la alineación del texto.
+- `text-decoration`: Define la decoración del texto.
 
 ## Recursos
 
