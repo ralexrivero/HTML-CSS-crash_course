@@ -26,6 +26,35 @@
 CSS es un lengiaje de estilos que se utiliza para darle estilo a un documento HTML.
 Define el aspecto visual de un documento HTML.
 
+- `color` color del texto
+- `background-color` color de fondo
+- `font-family` tipo de fuente
+- `font-size` tamaño de la fuente
+- `font-weight` grosor de la fuente
+- `margin` margen
+- `padding` relleno
+- `border` borde
+- `width` ancho
+- `height` alto
+- `display` tipo de display (block, inline, inline-block, none)
+- `position` posicion (static, relative, absolute, fixed)
+  - `top` posicion superior
+  - `right` posicion derecha
+  - `bottom` posicion inferior
+  - `left` posicion izquierda
+- `float` flotar (left, right, none)
+- `clear` limpiar flotantes (left, right, both, none)
+- `text-align` alineacion del texto (left, right, center, justify)
+- `text-decoration` decoracion del texto (none, underline, overline, line-through)
+- `text-transform` transformacion del texto (uppercase, lowercase, capitalize)
+- `text-indent` sangria del texto
+- `text-shadow` sombra del texto
+- `box-shadow` sombra del elemento
+- `opacity` opacidad
+- `visibility` visibilidad (visible, hidden, collapse)
+- `overflow` desbordamiento (visible, hidden, scroll, auto)
+- `z-index` indice de profundidad
+
 ## Selectores
 
 Los selectores se utilizan para seleccionar los elementos HTML a los que se les aplicará el estilo.
@@ -402,6 +431,7 @@ div {
   background-image:url("https://picsum.photos/100/100")
 }
 ```
+
 
 - **background-attachment**: Define si la imagen de fondo es fija o se mueve con el contenido.
 - **background-position**: Define la posición de la imagen de fondo.
