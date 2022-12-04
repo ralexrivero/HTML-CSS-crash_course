@@ -592,6 +592,25 @@ body {
 }
 ```
 
+### ejercicio
+
+Prueba agregar uno a uno los estilos css para ver como cambia el resultado.
+
+```html
+<div class="container-x"></div>
+```
+
+```css
+.container-x {
+  height:200px;
+  width:200px;
+  background-color:pink;
+  background-image:url("https://picsum.photos/100/100");
+  backgound-repeat:no-repeat;
+  background-size:cover;
+}
+```
+
 ## Display
 
 El display define si un elemento es un bloque o un elemento en línea.
