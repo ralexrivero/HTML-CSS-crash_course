@@ -390,10 +390,16 @@ div {
 
 - **background-repeat**: Define si la imagen de fondo se repite o no.
 
+```html
+<div class="container-x></div>
+```
+
 ```css
-div {
-  background-image: url("img_tree.png");
-  background-repeat: no-repeat;
+.container-x {
+  height:200px;
+  width:200px;
+  background-color:pink;
+  background-image:url("https://picsum.photos/100/100")
 }
 ```
 
