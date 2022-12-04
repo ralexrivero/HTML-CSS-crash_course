@@ -151,7 +151,7 @@ Codigos de colores: nombres, hexadecimales, abreviacion hexadecimal, rgb, rgba, 
 
 ### Referencia de colores
 
-Usualmente los colores se representan en hexadecimal en numeros desde el 00000 al FFFFFF, donde cada par de numeros representa un color, el primero es el rojo, el segundo es el verde y el tercero es el azul. Tambien se pueden especificar los colores en RGB, donde cada valor es un numero entre 0 y 255, donde 0 es el minimo y 255 es el maximo.
+Usualmente los colores se representan en hexadecimal en numeros en base 16 desde el 00000 al FFFFFF, donde cada par de numeros representa un color, el primero es el rojo, el segundo es el verde y el tercero es el azul. Tambien se pueden especificar los colores en RGB, donde cada valor es un numero entre 0 y 255, donde 0 es el minimo y 255 es el maximo.
 En RGBA la transparencia se puede especificar con un valor entre 0 y 1, donde 0 es transparente y 1 es opaco.
 
 ```css
