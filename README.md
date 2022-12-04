@@ -72,7 +72,13 @@ h1 {
 
 [Open Source](https://opensource.org/licenses/MIT)
 
-## Author
+## Autores
+
+- Ivan
+
+- Ruben
+
+- Ronald
 
 [![Twitter](https://img.shields.io/twitter/follow/ralex_uy?style=social)](https://twitter.com/ralex_uy) <!-- twitter -->
 [![Linkedin](https://img.shields.io/badge/LinkedIn-+28K-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/ronald-rivero/) <!-- linkedin -->
