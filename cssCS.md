@@ -616,6 +616,33 @@ body {
 }
 ```
 
+## Indice
+
+- `z-index` : Define el orden de los elementos.
+
+```css
+body {
+  z-index: 1;
+}
+```
+
+## Desbordamiento
+
+El desbordamiento define si un elemento se desborda o no.
+
+- `overflow` : Define si un elemento se desborda o no.
+  - `visible` - El contenido se desborda.
+  - `hidden` - El contenido no se desborda.
+  - `scroll` - El contenido se desborda y se muestra una barra de desplazamiento.
+  - `auto` - El contenido se desborda y se muestra una barra de desplazamiento si es necesario.
+
+```css
+body {
+  overflow: hidden;
+}
+```
+
+
 - `position`: Define la posición de un elemento.
 - `top`: Define la posición superior de un elemento.
 - `right`: Define la posición derecha de un elemento.
@@ -625,7 +652,6 @@ body {
 - `clear`: Define si un elemento flotante debe estar a la izquierda, a la derecha o a ambos lados.
 - `overflow`: Define qué hacer si el contenido de un elemento es más grande que el elemento.
 - `visibility`: Define si un elemento debe ser visible o no.
-- `z-index`: Define la posición de un elemento en el eje z.
 
 
 ## Recursos
