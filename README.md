@@ -47,6 +47,10 @@ h1 {
 
 > entornos en linea
 
+[![HTML5](https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=HTML5&logoColor=E34F26&labelColor=2F333A)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)<!--HTML5-->
+[![CSS3](https://img.shields.io/static/v1?label=&message=CSS3&color=0071B5&logo=CSS3&logoColor=1572B6&labelColor=2F333A)](https://developer.mozilla.org/en-US/docs/Web/CSS)<!-- CSS3 -->
+[![Codepen](https://img.shields.io/static/v1?label=&message=codepen.io&color=000000&logo=CodePen&logoColor=000000&labelColor=e2e2e2)](https://codepen.io/)<!-- Codepen.io -->
+
 - [codepen.io](https://codepen.io)
 - [codesandbox.io](https://codesandbox.io)
 - [stackblitz.com](https://stackblitz.com)
