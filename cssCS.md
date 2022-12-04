@@ -204,13 +204,27 @@ Las unidades absolutas son unidades que no se basan en otras unidades, por ejemp
 
 Las fuentes son los tipos de letra que se pueden usar en un documento, por ejemplo, Arial, Times New Roman, Verdana, etc.
 
+
 ### Familias de fuentes
 
 Las familias de fuentes son un conjunto de fuentes que se pueden usar en un documento, por ejemplo, Arial, Times New Roman, Verdana, etc.
+Las familias de fuentes se pueden especificar con la propiedad `font-family`.
+
+```css
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+```
 
 ### Tipos de fuentes
 
 Los tipos de fuentes son los estilos de las fuentes, por ejemplo, normal, cursiva, negrita, etc.
+
+```css
+body {
+  font-style: italic;
+}
+```
 
 ### Tamaño de fuentes
 
@@ -223,10 +237,6 @@ body {
 ```
 
 ```css
-body {
-  font-size: 1em;
-}
-
 h1 {
   font-size: 2em;
 }
@@ -240,16 +250,6 @@ Los estilos de fuentes se pueden especificar con las propiedades `font-style` y 
 body {
   font-style: italic;
   font-weight: bold;
-}
-```
-
-### Familias de fuentes
-
-Las familias de fuentes se pueden especificar con la propiedad `font-family`.
-
-```css
-body {
-  font-family: Arial, Helvetica, sans-serif;
 }
 ```
 
