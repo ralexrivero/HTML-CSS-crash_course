@@ -385,3 +385,6 @@ La semantica es la forma en que definimos la estructura de la pagina. La semanti
 Lorem ipsum
 
 - [Lorem Ipsum](https://www.lipsum.com/)
+
+- [Primer web](http://info.cern.ch/)
+- [Tim Berners Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) - El creador de la Web, HTTP y URL

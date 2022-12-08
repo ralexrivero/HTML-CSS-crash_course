@@ -24,7 +24,7 @@
 
 ## Guia_rapida
 
-CSS es un lengiaje de estilos que se utiliza para darle estilo a un documento HTML.
+CSS es un lenguaje de estilos que se utiliza para darle estilo a un documento HTML.
 Define el aspecto visual de un documento HTML.
 
 - `color` color del texto

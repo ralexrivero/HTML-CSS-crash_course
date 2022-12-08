@@ -65,8 +65,8 @@ h1 {
 ## Recursos populares
 
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
-- [W3SCHOOLS](https://www.w3schools.com/)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [W3SCHOOLS](https://www.w3schools.com/)
 
 ## Licencia
 
