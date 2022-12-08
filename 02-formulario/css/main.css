@@ -10,12 +10,12 @@ li {
     list-style: none;
 }
 
-.etiquetas {
+#etiquetas {
     display: block;
     margin-bottom: 5px;
 }
 
-input {
+class="campo" {
     width: 100%;
     padding: 5px;
     border: 1px solid #ccc;
