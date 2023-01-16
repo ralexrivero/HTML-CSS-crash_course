@@ -72,11 +72,7 @@ h1 {
 
 [Open Source](https://opensource.org/licenses/MIT)
 
-## Autores
-
-- Ivan
-
-- Ruben
+## Autor
 
 - Ronald
 
