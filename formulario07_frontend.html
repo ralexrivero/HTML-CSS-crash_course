@@ -1,0 +1,33 @@
+<form action="register-student.php" method="post">
+    <h2>Información de registro</h2>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Teléfono:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <h2>Información del curso</h2>
+    <label for="course">Curso:</label>
+    <select id="course" name="course" required>
+      <option value="">Seleccione un curso</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JavaScript</option>
+    </select>
+
+    <label for="level">Nivel:</label>
+    <select id="level" name="level" required>
+      <option value="">Seleccione un nivel</option>
+      <option value="beginner">Principiante</option>
+      <option value="intermediate">Intermedio</option>
+      <option value="advanced">Avanzado</option>
+    </select>
+
+    <h2>Comentarios</h2>
+    <textarea id="comments" name="comments"></textarea>
+
+    <input type="submit" value="Registrarse">
+  </form>

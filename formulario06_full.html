@@ -1,0 +1,57 @@
+completo
+
+<form action="submit-form.php" method="post">
+    <h2>Información de contacto</h2>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+<br>
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="phone">Teléfono:</label>
+    <input type="tel" id="phone" name="phone">
+    <br>
+    <h2>Información de envío</h2>
+    <label for="address">Dirección:</label>
+    <input type="text" id="address" name="address" required>
+    <br>
+    <label for="city">Ciudad:</label>
+    <input type="text" id="city" name="city" required>
+    <br>
+    <label for="state">Estado:</label>
+    <select id="state" name="state" required>
+      <option value="">Seleccione un estado</option>
+      <option value="AL">Alabama</option>
+      <option value="AK">Alaska</option>
+      <!-- opciones de estado-->
+    </select>
+    <br>
+    <label for="zip">Código postal:</label>
+    <input type="text" id="zip" name="zip" required>
+
+    <h2>Información de pago</h2>
+    <label for="card-number">Número de tarjeta:</label>
+    <input type="text" id="card-number" name="card-number" required>
+    <br>
+    <label for="expiration-date">Fecha de caducidad:</label>
+    <input type="month" id="expiration-date" name="expiration-date" required>
+    <br>
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv" required>
+
+    <h2>Método de envío</h2>
+    <input type="radio" id="shipping-standard" name="shipping" value="standard" checked>
+    <label for="shipping-standard">Envío estándar ($5.00)</label>
+
+    <input type="radio" id="shipping-express" name="shipping" value="express">
+    <label for="shipping-express">Envío exprés ($10.00)</label>
+    <br>
+    <h2>Comentarios</h2>
+    <textarea id="comments" name="comments"></textarea>
+    <br>
+    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+    <label for="newsletter">Deseo suscribirme al boletín de noticias</label>
+    <br>
+    <input typeion="submit" value="Enviar">
+
+</form>
